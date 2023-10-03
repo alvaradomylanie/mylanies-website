@@ -1,0 +1,689 @@
+/****** GLOBAL STYLES ******/
+body {
+    background: url('../img/pompom background.jpg');
+    background-size: cover;
+    font-family: 'Marck Script', Helvetica, Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+    justify: center;
+    padding-left: 10px;
+}
+
+
+.homepage-hero {
+    width: 300px;
+    text-align: center;
+    color: slateblue;
+}
+
+header h1 {
+    font-family: 'Shantell Sans';
+    font-size: 100px;
+    color: slateblue;
+    clear: both;
+    width: 1000px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h2 {
+    font-family: 'Shantell Sans';
+    color: slateblue;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.homepage-hero img {
+    width: 250px;
+    height: 250px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 40px;
+}
+
+.content-wrapper {
+    margin: 0 auto ;
+    overflow: auto;
+    width: 1200px;
+    font-size: 20px;
+}
+
+.content-wrapper p {
+    font-size: 24px;
+}
+
+#about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+#about p {
+    color: black;
+    font-family: Arial;
+    
+    
+}
+.block {
+    /* outline: 1px dashed darkgreen; */
+    float: left;
+    box-sizing: border-box;
+    width: 900px;
+    font-size: 26px;
+}
+
+.small-block {
+    padding: 20px 40px;
+    height: 200px;
+    padding: 20px 40px;
+    font-size: 26px;
+}
+
+.small-block img {
+    height: 200px;
+    width: 200px;
+}
+
+.small-block p {
+    font-size: 20px;
+}
+    
+
+.large-block {
+    padding: 70px 40px; 
+    height: 450px;
+    padding: 70px 40px;
+}
+
+.large-block img {
+    height: 220px;
+    width: 220px;
+}
+
+.center {
+    text-align: center;
+} 
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background-color: #FFFFFF;
+}
+
+.dark-bg {
+    background: white;
+    color: grey;
+}
+
+.highlight {
+    background: #FFF44F;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+strong {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: none;
+}
+
+p {
+    font-size: 1em;
+}
+
+.title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.year {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 18px;
+    margin-top: 5px; 
+}
+
+.top-padding {
+    padding-top: 30px;
+}
+
+.block small-block img {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+
+}
+
+********************** Header Styles *********************
+/****** Header styles ******/
+header nav {
+    width: 700px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: midnightblue;
+    font-size: 18px;
+    position: center;
+}
+
+/****** Contact Styles ******/
+#contact  {
+    background: #f9e9e9;
+    margin-left: 50px;
+    margin-right: 50px auto;
+}
+
+#contact .content-wrapper {
+    margin: 0 auto ;
+    overflow: auto;
+    width: 1200px;
+}
+
+
+#contact .contact-image {
+    float: left;
+    width: 600px;
+    margin-top: 30px;
+}
+
+#contact #contact-img {
+    width: 300px;
+    height: 300px;
+    margin: 0 50px;
+}
+
+#contact .contact-info {
+    float: left;
+    width: 500px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin-right: 30px 0;
+}
+
+contact h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+contact #email-header {
+    margin-bottom: 5px;
+}
+
+#contact #socialmedia-header {
+    margin: 20px 0 5px 0;
+}
+
+#contact #envelope {
+    padding-right: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #5e5d5e;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 40px;
+}
+
+
+/****** Style Gallery ******/
+body {
+    background: url('../img/pompom background.jpg');
+    background-size: cover;
+    font-family: 'Marck Script', Helvetica, Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.homepage-hero {
+    width: 300px;
+    text-align: center;
+    color: slateblue;
+}
+
+header h1 {
+    font-family: 'Shantell Sans';
+    font-size: 100px;
+    color: slateblue;
+    clear: both;
+    width: 1000px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h2 {
+    font-family: 'Shantell Sans';
+    color: slateblue;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.homepage-hero img {
+    width: 250px;
+    height: 250px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 40px;
+}
+h1 {
+    margin-left: 500px;
+    
+}
+
+h3 {
+    font-family: 'Shantell Sans';
+    font-style: ;
+    
+}
+
+#gallery .content-wrapper {
+    font-family: 'Shantell Sans';
+    color: deeppink;
+}
+
+
+#gallery-photos {
+    margin-left: 50px;
+    background-position-y: center;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+#section .items {
+    width: 10px;
+    height: 5px;
+}
+
+#section .block-1 { 
+    height: 210px;
+    padding: 20px 40px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+}
+
+.block-1 img {
+    margin-left: 100px;
+    margin-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+#section .block-2 {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+#section .block-3 {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+#section .block-4 right {
+    padding: 20px 40px;
+    height: 210px;
+    padding: 20px 40px;
+}
+
+#about #gallery-photos {
+    
+}
+
+
+
+/****** Shop Styles ******/
+body {
+    background: url('../img/pompom background.jpg');
+    background-size: cover;
+    font-family: 'Marck Script', Helvetica, Arial, sans-serif;
+    color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.homepage-hero {
+    width: 300px;
+    text-align: center;
+    color: slateblue;
+}
+
+header h1 {
+    font-family: 'Shantell Sans';
+    font-size: 100px;
+    color: slateblue;
+    clear: both;
+    width: 1000px;
+    padding-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header h2 {
+    font-family: 'Shantell Sans';
+    color: slateblue;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.homepage-hero img {
+    width: 250px;
+    height: 250px;
+    margin-left: 500px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 40px;
+}
+h1 {
+    margin-left: 500px;
+    
+}
+
+h3 {
+    font-family: 'Shantell Sans';
+    font-style: ;
+    
+}
+
+ul {
+    padding-left: 5px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul img {
+    display: inline-block;
+}
+
+a {
+    text-transform: uppercase;
+    padding-left: 15px;
+    color: midnightblue;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+
+
+.content-wrapper p{
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+}
+
+
+.content-wrapper img {
+    margin-left: 300px;
+    margin-right: 340px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+    background: none;
+    height: 250px;
+    width: 300px;
+}
+
+#shop .content-wrapper {
+    height: 100px;
+    width: 50px;
+}
+
+.shop-gallery .content-wrapper {
+    background-color: white;
+}
+
+button {
+    background-color: deeppink;
+    border-radius: 100px;
+    text-shadow: #5e5d5e;
+    font-size: 20px;
+    margin-left: 0;
+    float: left;
+}
+
+.shop-gallery {
+    width: 1100px;
+    margin-right: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    background-size: cover;
+    background-color: white;
+}
+
+.main img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding-top: 10px 10px;
+    padding-left: 10px;
+    margin-left: 0;
+    display: grid;
+
+}
+
+.small img {
+    height: 50px;
+    width: 100px;
+    flex: space-around;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between; 
+    position: relative;
+}
+
+p {
+    margin-left: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+
+/****** Single Product ******/
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+/****** Shop Page Contact Styles ******/
+#contact  {
+    background: #f9e9e9;
+    width: 1200px;
+    
+}
+
+#contact .content-wrapper {
+    height: 500px;
+    padding-left: 40px;
+    width: 1100px;
+    background-size: cover;
+    justify: center;
+}
+
+#contact .contact-image {
+    width: 50px;
+    height: 20px;
+    margin-top: 30px;
+}
+
+#contact #contact-img {
+    width: 5px;
+    height: 10px;
+    margin-right: 920px;
+    box-sizing: border-box;
+}
+
+#contact img {
+    width: 30px;
+    height: 20px;
+    margin-left: 200px;
+    display: inline;
+    
+}
+
+#contact .contact-info {
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+
+#contact h3 {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.contact-info p {
+    margin-left: 50px;
+    font-family: arial;
+    line-height: 20px;
+}
+
+
+
+#contact #email-header {
+    font-size: ;
+    font-family: ;
+    line-height: ;
+    margin: ;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: ;
+    line-height: ;
+    margin: ;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact a {
+    color: black;
+    font-size: 20px;
+    line-height: 5px;
+    text-transform: lowercase;
+    margin-left: 50px;
+}
+
+#contact a img {
+    margin-left: 50px;
+    padding: 0 10px 0 115px;
+
+}
+
+#contact ul {
+    margin-top: 0;
+    padding-left: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul li img {
+   padding-right: 40px;
+   display: inline-block;
+
+    
+}
+
