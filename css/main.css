@@ -17,9 +17,9 @@ body {
     color: slateblue;
 }
 
-header h1 {
+.content-wrapper h1 {
     font-family: 'Shantell Sans';
-    font-size: 100px;
+    font-size: 70px;
     color: slateblue;
     clear: both;
     width: 1000px;
@@ -33,7 +33,7 @@ header h1 {
 header h2 {
     font-family: 'Shantell Sans';
     color: slateblue;
-    font-size: 60px;
+    font-size: 10px;
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 5px;
@@ -273,7 +273,7 @@ contact #email-header {
 }
 
 
-/****** Style Gallery ******/
+/****** Style Gallery Page ******/
 body {
     background: url('../img/pompom background.jpg');
     background-size: cover;
@@ -284,15 +284,26 @@ body {
 }
 
 
+
+#gallery p {
+    color: black;
+    font-family: arial;
+}
+
+
 .homepage-hero {
     width: 300px;
     text-align: center;
     color: slateblue;
 }
 
+::-webkit-scrollbar- {
+    display: hidden;
+}
+
 header h1 {
     font-family: 'Shantell Sans';
-    font-size: 100px;
+    font-size: 5px;
     color: slateblue;
     clear: both;
     width: 1000px;
@@ -306,7 +317,7 @@ header h1 {
 header h2 {
     font-family: 'Shantell Sans';
     color: slateblue;
-    font-size: 60px;
+    font-size: px;
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 5px;
@@ -321,7 +332,7 @@ header h3 {
 
 .homepage-hero img {
     width: 250px;
-    height: 250px;
+    height: 199px;
     margin-left: 500px;
     margin-right: 400px;
     margin-top: 0;
